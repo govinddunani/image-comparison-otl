@@ -81,6 +81,7 @@ Cloning the repository is a good approach to get the backend and frontend code o
    ```
 
    This will start the backend server, and it will be accessible at `localhost:5000`.
+run the frontend and backend server seperately and do not close the backend server while running the frontend server.
 
 Now, it's time to set up the frontend:
 
