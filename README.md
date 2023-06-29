@@ -1,5 +1,51 @@
 # image-comparison-otl
+Sure! Here's a step-by-step guide on how to install Visual Studio Code (VS Code) and set up a Python development environment with the necessary software:
 
+Step 1: Download and Install Visual Studio Code
+
+1. Visit the official Visual Studio Code website at https://code.visualstudio.com/.
+2. Click on the "Download" button to download the installer for your operating system (Windows, macOS, or Linux).
+3. Run the installer and follow the on-screen instructions to complete the installation of Visual Studio Code.
+
+Step 2: Install Python Extension in VS Code
+
+1. Launch Visual Studio Code after the installation is complete.
+2. In the left sidebar, click on the Extensions icon (four squares icon), or use the shortcut `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (macOS).
+3. In the Extensions search bar, type "Python" and press Enter.
+4. Look for the official "Python" extension by Microsoft and click on the "Install" button.
+5. After installation, you may need to reload or restart Visual Studio Code.
+
+Step 3: Create a New Python Project
+
+1. Open Visual Studio Code.
+2. Click on the "Explorer" icon in the left sidebar (folder icon) or use the shortcut `Ctrl+Shift+E` (Windows/Linux) or `Cmd+Shift+E` (macOS).
+3. Click on the "Open Folder" button and select a directory where you want to create your Python project.
+4. Once the folder is open in Visual Studio Code, click on the "New File" button in the Explorer sidebar and save the file with a `.py` extension (e.g., `main.py`).
+
+Step 4: Set Up Python Environment
+
+1. Open the integrated terminal in Visual Studio Code by clicking on the "Terminal" menu at the top and selecting "New Terminal." Alternatively, use the shortcut `Ctrl+` (backtick) (Windows/Linux) or `Ctrl+`` (backtick) (macOS).
+2. In the terminal, type the following command to create a virtual environment:
+   ```
+   python3 -m venv myenv
+   ```
+   Replace `myenv` with the desired name for your virtual environment.
+3. Activate the virtual environment by running the appropriate command based on your operating system:
+   - Windows:
+     ```
+     myenv\Scripts\activate
+     ```
+   - macOS/Linux:
+     ```
+     source myenv/bin/activate
+     ```
+4. Your terminal prompt should now indicate that you are inside the virtual environment.
+5. Install required Python packages using `pip`. For example:
+   ```
+   pip install flask flask-cors pillow
+   ```
+
+You have now set up Visual Studio Code with the Python extension and created a Python project with the necessary software installed. You can start writing your Python code in the `.py` file you created and execute it using the integrated terminal within Visual Studio Code. 
 Cloning the repository is a good approach to get the backend and frontend code on your local machine. Here are the steps you can follow:
 
 1. Open your terminal or command prompt and navigate to the desired directory where you want to clone the repository.
